@@ -54,13 +54,13 @@ Android: Android 4.4W (minSDK 20) 이상
 
     >  google_maps_flutter 문서: [https://pub.dev/packages/google_maps_flutter](https://pub.dev/packages/google_maps_flutter)
 
-4. 에디터에서 플러터 프로젝트 폴더(Flutter-Application/easy_yum)에 이동한 후 
+4. 에디터에서 플러터 프로젝트 폴더(KTEEN/kteen_app에 이동한 후 
 
     > $ flutter pub get
 
     명령을 실행하여 패키지를 다운로드 한다.
 
-5. 에디터에서 실행할 Android 기기를 선택하여 'main.dart'를 Run한다.
+5. 에디터에서 실행할 기기를 선택하여 'main.dart'를 Run한다.
 
 ## Demo Video
 
