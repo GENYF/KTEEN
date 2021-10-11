@@ -52,15 +52,22 @@ Android: Android 4.4W (minSDK 20) 이상
 
 3. google_maps_flutter 문서를 참고하여 Google Maps API Key를 발급받아 프로젝트에 적용한다.
 
-    >  google_maps_flutter 문서: [https://pub.dev/packages/google_maps_flutter](https://pub.dev/packages/google_maps_flutter)
+    > google_maps_flutter 문서: [https://pub.dev/packages/google_maps_flutter](https://pub.dev/packages/google_maps_flutter)
 
-4. 에디터에서 플러터 프로젝트 폴더(KTEEN/kteen_app에 이동한 후 
+4. 에디터에서 플러터 프로젝트 폴더 KTEEN/kteen_app에 이동한 후 `pubspec.yaml`의 Dart 버전을 2.7로 수정한다.
+
+    ``` dart
+    environment: 
+      sdk: ">=2.7.0 <3.0.0"
+    ```
+
+5. 에디터에서 플러터 프로젝트 폴더 KTEEN/kteen_app에 이동한 후 
 
     > $ flutter pub get
 
     명령을 실행하여 패키지를 다운로드 한다.
 
-5. 에디터에서 실행할 기기를 선택하여 'main.dart'를 Run한다.
+6. 에디터에서 실행할 기기를 선택하여 'main.dart'를 Run한다.
 
 ## Demo Video
 
