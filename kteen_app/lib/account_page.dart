@@ -60,14 +60,14 @@ class _AccountPageState extends State<AccountPage> {
                       Padding(
                         padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 4.0),
                         child: Text(
-                          '권지한',
+                          '$userName',
                           style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 8.0),
                         child: Text(
-                          'kkjh4357@ajou.ac.kr',
+                          '$userMail',
                           style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.normal),
                         ),
                       ),

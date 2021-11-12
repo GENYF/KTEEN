@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "186393275349",
+    "project_id": "kteen-74815",
+    "storage_bucket": "kteen-74815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186393275349:android:019ae24d7fe83caf366b5c",
+        "android_client_info": {
+          "package_name": "com.example.kteen_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186393275349-c69oj3covq0aa4uj9k99b4h9m7s9575q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kteen_app",
+            "certificate_hash": "3f447c394269eb4242dc0ac30ee2a04a27c782db"
+          }
+        },
+        {
+          "client_id": "186393275349-3udcr7o74fm6nf5stppr7gr8h1c7e0gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRnDMk95dVAn5-NYgCSEAyCSjgQbKnvxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186393275349-3udcr7o74fm6nf5stppr7gr8h1c7e0gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
