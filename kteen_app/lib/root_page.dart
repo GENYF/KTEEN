@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:kteen_app/tab_page.dart';
 import 'package:kteen_app/login_page.dart';
-import 'package:kteen_app/utils/user_information.dart';
 
 class RootPage extends StatelessWidget {
   @override
@@ -12,7 +11,6 @@ class RootPage extends StatelessWidget {
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           if (snapshot.hasData) {
-
             return TabPage();
           }
           else{
